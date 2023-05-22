@@ -11937,6 +11937,25 @@ textarea.form-control-lg {
   margin: 0 auto;
 }
 
+.display-3 {
+  font-family: "Poppins", sans-serif;
+}
+.display-3--title {
+  font-size: 1.8rem;
+  text-transform: capitalize;
+  font-weight: 600;
+  background-image: linear-gradient(to right, #830B89, #d63384);
+  -webkit-background-clip: text;
+  display: inline;
+  font-family: "poppins";
+  -webkit-text-fill-color: transparent;
+}
+
+.border-right {
+  border-right: 0.1rem solid #dee2e6;
+  height: 100%;
+}
+
 .companies {
   padding: 0 0 5rem 0;
 }
@@ -11996,6 +12015,23 @@ textarea.form-control-lg {
   font-weight: 600;
   text-transform: capitalize;
   color: #fff;
+}
+
+.services {
+  position: relative;
+  padding: 1rem 0;
+}
+.services__content {
+  padding: 1rem;
+  margin-top: 3rem;
+  width: 30rem;
+}
+.services__content .icons {
+  color: #830B89;
+  font-size: 2rem;
+}
+.services__content img {
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
