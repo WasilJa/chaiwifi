@@ -4,17 +4,29 @@
     padding: 1rem 0;
     &__content{
         padding: 1rem;
-        margin-top: 3rem;
-        width: 30rem;
+        margin-top: 0;
+        p{
+            font-size: 0.8rem;
+            @include media-breakpoint-up(lg){
+                font-size: 1rem;
+            }
+        }
+        
+        @include media-breakpoint-up(lg){
+            margin-top: 5rem;
+        }
         
         .icons{
             color: $primary;
-            font-size: 2rem;
+            font-size: 1.5rem;
+            @include media-breakpoint-up(lg){
+                font-size: 2rem;
+            }
         }
-        img{
-            width:100%
-        }
-        
+      
+    }
+    &__pic{
+        max-width:100%
     }
 
 }
